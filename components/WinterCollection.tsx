@@ -2,16 +2,26 @@ import React from "react";
 
 function WinterCollection() {
   return (
-    <div>
+    <div className="bg-white">
       {/* Winter Collection Section */}
-      <section className=" container-fluid   py-12 bg-white mx-3 mb-0 pb-0">
-        <div className=" mx-auto grid md:grid-cols-2 items-center gap-8">
-          <div className="relative">
+      <section className="container mx-auto py-12 px-4 ">
+        <div className="grid md:grid-cols-2 items-center gap-8">
+          <div className="relative flex justify-center items-center">
             <img
               src="/images/page3.jpg"
               alt="Winter Collection"
-              className="w-full h-full object-cover"
+              className="w-full h-auto object-cover"
             />
+            <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
+              <div className="flex flex-col items-center justify-center">
+                <span className="text-sm font-medium text-gray-700">
+                  NEW ARRIVAL
+                </span>
+                <span className="text-lg font-bold text-gray-900">
+                  DESIGNER COLLECTION
+                </span>
+              </div>
+            </div>
           </div>
           <div className="text-left px-6">
             <h2 className="text-3xl font-bold text-black mb-4">
@@ -23,11 +33,11 @@ function WinterCollection() {
               industry. Lorem ipsum has been standard dummy text. Lorem ipsum
               has been standard.
             </p>
-            <div className="flex justify-center flex-wrap">
-              <button className="bg-white text-black px-6 py-3 border rounded hover:bg-black hover:text-white mx-2 my-2">
+            <div className="flex justify-start flex-wrap">
+              <button className="bg-black text-white px-6 py-3 border rounded hover:bg-white hover:text-black mx-2 my-2">
                 Shop the Collection
               </button>
-              <button className="bg-white text-black px-6 py-3 border rounded hover:bg-black hover:text-white mx-2 my-2">
+              <button className="bg-black text-white px-6 py-3 border rounded hover:bg-white hover:text-black mx-2 my-2">
                 Buy Now
               </button>
             </div>
@@ -36,8 +46,8 @@ function WinterCollection() {
       </section>
 
       {/* Logo Bar */}
-      <section className="mt-0 py-0 my-0 bg-white">
-        <div className=" mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
+      <section className="py-4 bg-white">
+        <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="flex justify-center items-center">
             <img
               src="/images/logo1.jpg"

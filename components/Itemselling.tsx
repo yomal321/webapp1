@@ -11,14 +11,14 @@ function Itemselling() {
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 justify-center content-center">
         {/* Product 1 */}
-        <div className="relative bg-white p-4 rounded-md border hover:shadow-lg transition-shadow duration-300">
+        <div className="relative bg-white p-4 rounded-md border hover:shadow-lg  hover:scale-105 transition-transform duration-300">
           <span className="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded">
             SALE
           </span>
           <img
             src="/images/men1.jpg"
             alt="Abstract shirt"
-            className="w-full h-auto mb-4 rounded hover:scale-105 transition-transform duration-300"
+            className="w-full h-auto mb-4 rounded "
           />
           <div className="text-center">
             <div className="flex justify-center mb-2">
@@ -49,14 +49,14 @@ function Itemselling() {
         </div>
 
         {/* Product 2 */}
-        <div className="relative bg-white p-4 rounded-md border hover:shadow-lg transition-shadow duration-300">
+        <div className="relative bg-white p-4 rounded-md border hover:shadow-lg hover:scale-105 transition-transform duration-300">
           <span className="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded">
             SALE
           </span>
           <img
             src="/images/men1.jpg"
             alt="Abstract shirt"
-            className="w-full h-auto mb-4 rounded hover:scale-105 transition-transform duration-300"
+            className="w-full h-auto mb-4 rounded "
           />
           <div className="text-center">
             <div className="flex justify-center mb-2">
@@ -87,14 +87,14 @@ function Itemselling() {
         </div>
 
         {/* Product 3 */}
-        <div className="relative bg-white p-4 rounded-md border hover:shadow-lg transition-shadow duration-300">
+        <div className="relative bg-white p-4 rounded-md border hover:shadow-lg hover:scale-105 transition-transform duration-300">
           <span className="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded">
             SALE
           </span>
           <img
             src="/images/men1.jpg"
             alt="Abstract shirt"
-            className="w-full h-auto mb-4 rounded hover:scale-105 transition-transform duration-300"
+            className="w-full h-auto mb-4 rounded "
           />
           <div className="text-center">
             <div className="flex justify-center mb-2">
@@ -125,14 +125,14 @@ function Itemselling() {
         </div>
 
         {/* Product 4 */}
-        <div className="relative bg-white p-4 rounded-md border hover:shadow-lg transition-shadow duration-300">
+        <div className="relative bg-white p-4 rounded-md border hover:shadow-lg hover:scale-105 transition-transform duration-300">
           <span className="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded">
             SALE
           </span>
           <img
             src="/images/men1.jpg"
             alt="Abstract shirt"
-            className="w-full h-auto mb-4 rounded hover:scale-105 transition-transform duration-300"
+            className="w-full h-auto mb-4 rounded "
           />
           <div className="text-center">
             <div className="flex justify-center mb-2">
@@ -163,14 +163,14 @@ function Itemselling() {
         </div>
 
         {/* Product 5 */}
-        <div className="relative bg-white p-4 rounded-md border hover:shadow-lg transition-shadow duration-300">
+        <div className="relative bg-white p-4 rounded-md border hover:shadow-lg hover:scale-105 transition-transform duration-300">
           <span className="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded">
             SALE
           </span>
           <img
             src="/images/men1.jpg"
             alt="Abstract shirt"
-            className="w-full h-auto mb-4 rounded hover:scale-105 transition-transform duration-300"
+            className="w-full h-auto mb-4 rounded "
           />
           <div className="text-center">
             <div className="flex justify-center mb-2">

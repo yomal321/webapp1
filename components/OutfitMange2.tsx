@@ -362,7 +362,7 @@ function Outfitmange2() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {/* Product Card */}
-            <div className="relative bg-white p-4 border rounded-md overflow-hidden">
+            <div className="relative bg-white p-4 border rounded-md overflow-hidden hover:scale-105 transition-transform duration-300 ">
               <span className="absolute top-2 left-2 bg-green-500 text-white text-xs px-2 py-1 rounded">
                 SALE
               </span>

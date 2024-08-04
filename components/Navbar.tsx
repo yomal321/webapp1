@@ -74,7 +74,7 @@ function Navbar() {
             <span>Wishlist</span>
           </a>
           <a
-            href="#"
+            href="./cart"
             className="text-black hover:text-gray-700 flex items-center space-x-1 hover:underline"
           >
             <FaCartShopping />
