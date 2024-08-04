@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Herocontainer() {
   return (
     <main className="container-fluid mx-auto py-0 text-center">
       <div className="relative">
@@ -28,4 +28,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Herocontainer;

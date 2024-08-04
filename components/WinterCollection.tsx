@@ -4,8 +4,8 @@ function WinterCollection() {
   return (
     <div>
       {/* Winter Collection Section */}
-      <section className="py-12 bg-white mx-3 mb-0 pb-0">
-        <div className="container mx-auto grid md:grid-cols-2 items-center gap-8">
+      <section className=" container-fluid   py-12 bg-white mx-3 mb-0 pb-0">
+        <div className=" mx-auto grid md:grid-cols-2 items-center gap-8">
           <div className="relative">
             <img
               src="/images/page3.jpg"
@@ -37,7 +37,7 @@ function WinterCollection() {
 
       {/* Logo Bar */}
       <section className="mt-0 py-0 my-0 bg-white">
-        <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
+        <div className=" mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
           <div className="flex justify-center items-center">
             <img
               src="/images/logo1.jpg"

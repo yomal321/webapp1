@@ -2,7 +2,7 @@ import React from "react";
 
 function ShoppingContent() {
   return (
-    <section className="p-2 container mx-auto">
+    <section className="p-2 container  mx-auto ">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Left Grid (2 columns wide on medium screens and larger) */}
         <div className="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">

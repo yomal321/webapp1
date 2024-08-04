@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Header from "@/components/Header";
+import Herocontainer from "@/components/Herocontainer";
 import NavBar from "@/components/Navbar";
 import ShoppingContent from "@/components/ShoppingContent";
 import Itemselling from "@/components/Itemselling";
@@ -10,13 +10,14 @@ import PhotoBar from "@/components/PhotoBar";
 import OutfitMange1 from "@/components/OutfitMange1";
 import Outfitmange2 from "@/components/OutfitMange2"; 
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 
 export default function Home() {
   return (
     <main>
       <NavBar />
-      <Header />
+      <Herocontainer />
       <ShoppingContent />
       <Itemselling />
       <WinterCollection />

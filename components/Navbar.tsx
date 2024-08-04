@@ -3,6 +3,7 @@
 import { FaUser, FaHeart } from "react-icons/fa";
 import { FaCartShopping, FaMagnifyingGlass } from "react-icons/fa6";
 import React, { useState } from "react";
+import Link from "next/link";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +17,12 @@ function Navbar() {
           >
             Demo
           </a>
-          <a
-            href="#"
-            className="text-black hover:text-gray-700 hover:underline"
-          >
-            Shop
-          </a>
+           <a href="#"className="text-black hover:text-gray-700 hover:underline"> Shop     </a>
+            
+            
+          
+           
+     
           <a
             href="#"
             className="text-black hover:text-gray-700 hover:underline"
@@ -111,12 +112,12 @@ function Navbar() {
             >
               Demo
             </a>
-            <a
-              href="#"
-              className="text-black hover:text-gray-700 hover:underline"
-            >
-              Shop
-            </a>
+            <a href="#"className ="text-black hover:text-gray-700 hover:underline" >   Shop</a>
+             
+             
+           
+           
+            
             <a
               href="#"
               className="text-black hover:text-gray-700 hover:underline"
