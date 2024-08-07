@@ -1,15 +1,17 @@
 "use client";
 
 import { FaUser, FaHeart } from "react-icons/fa";
-import { FaCartShopping, FaMagnifyingGlass } from "react-icons/fa6";
 import React, { useState } from "react";
 import Link from "next/link";
+import { FaCartShopping, FaMagnifyingGlass } from "react-icons/fa6";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+
   return (
-    <nav className="fixed top-0 left-0 right-0 shadow bg-white z-50" id="nav">
-      <div className="container-fluid mx-auto px-6 py-3 flex justify-between items-center">
+    <nav className="fixed top-0 left-0 right-0 shadow bg-white z-50">
+      <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <div className="flex-1 flex items-center space-x-4 justify-center md:justify-start">
           <a
             href="#"
@@ -17,12 +19,12 @@ function Navbar() {
           >
             Demo
           </a>
-           <a href="#"className="text-black hover:text-gray-700 hover:underline"> Shop     </a>
-            
-            
-          
-           
-     
+          <a
+            href="#"
+            className="text-black hover:text-gray-700 hover:underline"
+          >
+            Shop
+          </a>
           <a
             href="#"
             className="text-black hover:text-gray-700 hover:underline"
@@ -52,13 +54,13 @@ function Navbar() {
           HONGO
         </a>
         <div className="flex-1 flex items-center space-x-4 justify-center md:justify-end">
-          <a
-            href="#"
+          <button
+            onClick={() => setIsSearchOpen(!isSearchOpen)}
             className="text-black hover:text-gray-700 flex items-center space-x-1 hover:underline"
           >
             <FaMagnifyingGlass />
             <span>Search</span>
-          </a>
+          </button>
           <a
             href="#"
             className="text-black hover:text-gray-700 flex items-center space-x-1 hover:underline"
@@ -112,12 +114,12 @@ function Navbar() {
             >
               Demo
             </a>
-            <a href="#"className ="text-black hover:text-gray-700 hover:underline" >   Shop</a>
-             
-             
-           
-           
-            
+            <a
+              href="#"
+              className="text-black hover:text-gray-700 hover:underline"
+            >
+              Shop
+            </a>
             <a
               href="#"
               className="text-black hover:text-gray-700 hover:underline"
@@ -170,6 +172,23 @@ function Navbar() {
               <FaCartShopping />
               <span>Cart</span>
             </a>
+          </div>
+        </div>
+      )}
+      {isSearchOpen && (
+        <div className="fixed top-16 left-0 right-0 px-6 py-3 bg-white shadow-lg z-40">
+          <div className="container mx-auto flex justify-between items-center">
+            <input
+              type="text"
+              placeholder="Search..."
+              className="w-full p-2 rounded-full border border-gray-300 focus:outline-none focus:border-gray-500"
+            />
+            <button
+              onClick={() => setIsSearchOpen(false)}
+              className="text-black hover:text-gray-700 ml-4 rounded-3xl bg-gray-200 p-3 font-bold"
+            >
+              Close
+            </button>
           </div>
         </div>
       )}
