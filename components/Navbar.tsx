@@ -19,12 +19,12 @@ function Navbar() {
           >
             Demo
           </a>
-          <a
-            href="#"
+          <Link
+            href="./shop "
             className="text-black hover:text-gray-700 hover:underline"
           >
-            Shop
-          </a>
+            shop
+          </Link>
           <a
             href="#"
             className="text-black hover:text-gray-700 hover:underline"
@@ -50,9 +50,12 @@ function Navbar() {
             Features
           </a>
         </div>
-        <a className="text-black text-xl font-bold md:text-2xl mx-4" href="#">
+        <Link
+          href="./home"
+          className="text-black text-xl font-bold md:text-2xl mx-4"
+        >
           HONGO
-        </a>
+        </Link>
         <div className="flex-1 flex items-center space-x-4 justify-center md:justify-end">
           <button
             onClick={() => setIsSearchOpen(!isSearchOpen)}
