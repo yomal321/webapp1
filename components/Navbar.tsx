@@ -64,13 +64,13 @@ function Navbar() {
             <FaMagnifyingGlass />
             <span>Search</span>
           </button>
-          <a
-            href="#"
+          <Link
+            href="./account"
             className="text-black hover:text-gray-700 flex items-center space-x-1 hover:underline"
           >
             <FaUser />
-            <span>Account</span>
-          </a>
+            Account
+          </Link>
           <a
             href="#"
             className="text-black hover:text-gray-700 flex items-center space-x-1 hover:underline"
@@ -154,13 +154,14 @@ function Navbar() {
               <FaMagnifyingGlass />
               <span>Search</span>
             </a>
-            <a
-              href="#"
+            <Link
+              href="./account"
               className="text-black hover:text-gray-700 flex items-center space-x-1 hover:underline"
             >
               <FaUser />
-              <span>Account</span>
-            </a>
+              Account
+            </Link>
+
             <a
               href="#"
               className="text-black hover:text-gray-700 flex items-center space-x-1 hover:underline"
